@@ -1,4 +1,4 @@
- Pagseguro SDK Java
+💰 Pagseguro SDK Java
 
  Versoes suportadas: 17+
 
@@ -6,3 +6,6 @@
     -   [ ] Generate private key
     -   [ ] Create credit card transaction
     -   [ ] Create PIX transaction
+
+
+⚠️ Nao se trata de uma versao oficial ⚠️ 
