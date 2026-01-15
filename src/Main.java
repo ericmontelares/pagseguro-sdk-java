@@ -11,8 +11,10 @@ public class Main {
                 "12",
                 "2025",
                 "John Doe",
-                "MIIBIjANBgkq..."
+                "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArq9nJ5s9jH3NnJ8l+oV6z2FQrY6Wc1F3D0WJxU7H9p7LZBvU9gkG7jRk2x9zYF0v5C5QvZ7yQv1K8z1HcH2P9pQ7zW2yXbFzZ2Y5K9L7M9YJ8L5n4G6U7C1Q7E8R5M1P0G6Z5K1J8M4N6B3K2H7P9IDAQAB"
         );
+
+        // Expected ENCRYPTION_ERROR because this is not a real base64 key for pagbank
 
         Map<String, Object> result = CardEncryption.encrypt(card);
 
