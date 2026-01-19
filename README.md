@@ -5,7 +5,7 @@
     -   [X] Credit card encryption
     -   [ ] Generate private key
     -   [ ] Create credit card transaction
-    -   [ ] Create PIX transaction
+    -   [X] Create PIX transaction
 
 
 ⚠️ Nao se trata de uma versao oficial ⚠️ 
