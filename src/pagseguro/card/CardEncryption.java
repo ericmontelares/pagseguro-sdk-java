@@ -1,6 +1,4 @@
-package pagseguro.card.security;
-
-import pagseguro.card.CardData;
+package pagseguro.card;
 
 import javax.crypto.Cipher;
 import java.nio.charset.StandardCharsets;

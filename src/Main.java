@@ -1,10 +1,15 @@
 import pagseguro.card.CardData;
-import pagseguro.card.security.CardEncryption;
+import pagseguro.card.CardEncryption;
+import pagseguro.order.OrderData;
+import pagseguro.order.OrderFactory;
 
 import java.util.Map;
 
 public class Main {
+
+
     public static void main(String[] args) {
+
         CardData card = new CardData(
                 "4111111111111111",
                 "123",
@@ -23,5 +28,10 @@ public class Main {
         } else {
             System.out.println("Encrypted card: " + result.get("encryptedCard"));
         }
+
+        OrderData order = OrderFactory.createMockOrder();
+
+        System.out.println("Reference ID: " + order.getReferenceId());
+        System.out.println("Customer: " + order.getCustomer().getName());
     }
 }
